@@ -1,3 +1,22 @@
+:root {
+  --header-background-color: #f6e6ce;
+  --body-background-color: #543f2f;
+  --primary-font-family: "League Gothic", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 /* font-family: 'League Gothic', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
+
+h1 {
+  font-family: var(--primary-font-family);
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+}
