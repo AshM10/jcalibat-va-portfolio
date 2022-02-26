@@ -20,3 +20,7 @@ h2 {
   font-family: var(--secondary-font-family);
   font-size: 14px;
 }
+
+img {
+  width: 200px;
+}
